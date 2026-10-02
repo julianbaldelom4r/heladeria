@@ -5,44 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helathor</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="thor-hammer-svgrepo-com.png">
 </head>
 <body>
 
-    <header class="hero">
-        <div class="logo">
-            <h1>HELATHOR</h1>
-            <p>¡Un sabor digno de los Dioses!</p>
-        </div>
-        <nav class="nav-links">
+    <header class="barra">
+        <span class="logo">HELATHOR</span>
+        <nav class="links">
             <a href="index.html" class="active">Inicio</a>
             <a href="productos.html">Productos</a>
         </nav>
     </header>
 
+    <section class="hero">
+        <div class="eslogan-hero">
+        <p>¡Un sabor digno de los Dioses!</p>
+      </div>
+    </section>
 
     <main>
 
         <section class="sobre-nosotros">
             <h2>Sobre Nosotros</h2>
-            <p>En la heladeria Helathor forjamos cada sabor con ingredientes de la mas alta calidad, inspirandonos en la fuerza y la majestuosidad de los reinos nórdicos. Disfruta de una experiencia única.</p>
+            <p>En la heladería Helathor forjamos cada sabor con ingredientes de la más alta calidad, inspirándonos en la fuerza y la majestuosidad de los reinos nórdicos. Disfruta de una experiencia única.</p>
         </section>
 
         <section class="contacto">
             <h2>Contacto</h2>
             <form action="" method="post" class="contacto-form">
-                <div class="contacto">
-                    <label for="nombre y apellido">Nombre y apellido:</label>
-                    <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Thor Odinson" required>
+                <div class="campo-contacto">
+                    <label for="nombre">Nombre y apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Thor Odinson" required>
                 </div>
                 
-                <div class="contacto">
+                <div class="campo-contacto">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="example@correo.com" required>
                 </div>
 
-                <div class="contacto">
+                <div class="campo-contacto">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="escribe un mensajes a los dioses" required></textarea>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe un mensaje a los dioses" required></textarea>
                 </div>
 
                 <button type="submit" class="envio">Enviar Mensaje</button>
@@ -52,8 +55,8 @@
     </main>
 
     <footer class="pie">
-        <p>Direccion: Calle Falsa 1234, San Nicolás de los Arroyos</p>
-        <p>redes: Helathor</p>
+        <p>Dirección: Calle Falsa 123, San Nicolás de los Arroyos</p>
+        <p>Redes: HelathorOk</p>
         <p>&copy; 2026 Helathor. Todos los derechos reservados.</p>
     </footer>
 
